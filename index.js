@@ -37,6 +37,16 @@ const getHashOfFileTree = async (arrEventHandlerEntries) => {
     write: false, // keeps it in memory
     bundle: true,
     minify: true,
+    platform: "node",
+    external: [
+      "@ryyppy/rescript-promise",
+      "rescript-envsafe",
+      "rescript-struct",
+      "@greenlabs/ppx-spice",
+      "rescript-express",
+      "@glennsl/rescript-fetch",
+      "@rescript/react",
+    ], // hmmmm - rescript.json - bs-dependencies
   });
 
   // generates a hash of the output file esbuild hashes - https://xxhash.com/ maybe we should use :thinkies:
