@@ -8,4 +8,6 @@ Small simple js package for generating a hash of an array of file paths using es
 
 ## usage
 
-`esbuild-hasher --entry-paths './tests/handler-with-imports.js, ./tests/imported-file.js"])'`
+```bash
+esbuild-hasher --entry-paths 'tests/handler-with-imports.js, tests/imported-file.js
+```
