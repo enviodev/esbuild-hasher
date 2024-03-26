@@ -1,13 +1,20 @@
 {
-  "name": "esbuild-hasher",
+  "name": "@envio-dev/esbuild-hasher",
   "version": "0.1.0",
   "description": "simple package that takes a set of file paths and returns a hash of their contents using esbuild",
   "main": "index.js",
+  "bin": {
+    "esbuild-hasher": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "esbuild",
+    "hash",
+    "npm"
+  ],
   "author": "denhampreen",
   "license": "ISC",
   "dependencies": {
