@@ -1,6 +1,6 @@
 {
   "name": "@envio-dev/esbuild-hasher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "simple package that takes a set of file paths and returns a hash of their contents using esbuild",
   "main": "index.js",
   "bin": {
