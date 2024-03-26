@@ -1,6 +1,6 @@
 {
   "name": "esbuild-hasher",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "simple package that takes a set of file paths and returns a hash of their contents using esbuild",
   "main": "index.js",
   "scripts": {
